@@ -7,6 +7,6 @@ function display_image(src, width, height, alt) {
     document.body.appendChild(a);
 }
 display_image('https://JackWilliamson116.github.io/pizza.jpg', 
-                 276, 
-                 110, 
+                 600, 
+                 600, 
                  'JavaScriptImage');

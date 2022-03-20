@@ -2,7 +2,7 @@ var imgObj = null;
             
 function init() {
   imgObj = document.createElement("img");
-  imgObj.src = 
+  imgObj.src = "https://JackWilliamson116.github.io/pizza.jpg"
   imgObj.style.position= 'relative';
   imgObj.style.left = '0px'; 
 }
@@ -11,6 +11,6 @@ function moveRight() {
 }
             
 window.onload = init;
-for (let i = 0, len = cars.length, text = ""; i < len; i++) {
+for (let i = 0; i < 70; i++) {
   moveRight();
 }

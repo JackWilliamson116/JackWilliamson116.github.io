@@ -6,6 +6,7 @@ function display_image(src, width, height, alt) {
     a.alt = alt;
     a.display = "block";
     a.style.margin = "0 auto";
+    a.style.top = "100px";
     document.body.appendChild(a);
 }
 display_image('https://JackWilliamson116.github.io/pizza.jpg', 

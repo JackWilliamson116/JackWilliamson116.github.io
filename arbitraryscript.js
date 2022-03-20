@@ -14,3 +14,4 @@ window.onload = init;
 for (let i = 0; i < 70; i++) {
   moveRight();
 }
+alert("This is running");

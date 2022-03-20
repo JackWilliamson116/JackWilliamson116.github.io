@@ -4,6 +4,7 @@ function display_image(src, width, height, alt) {
     a.width = width;
     a.height = height;
     a.alt = alt;
+    a.display = "block";
     a.style.margin = "0 auto";
     document.body.appendChild(a);
 }
